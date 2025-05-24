@@ -7,7 +7,6 @@
 
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import BasicLayout from "@/layouts/BasicLayout.vue";
 import {useLoginUserStore} from "@/stores/useLoginUserStore.ts";
 

@@ -67,9 +67,9 @@ const items = ref<MenuProps['items']>([
     title: '关于',
   },
   {
-    key: 'other',
-    label: h('a', { href: 'https://www.baidu.com', target: '_blank' }, '棒棒的'),
-    title: '棒棒的',
+    key: '/admin/userManage',
+    label: '用户管理',
+    title: '用户管理',
   },
 ])
 </script>
